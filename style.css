@@ -1,0 +1,148 @@
+*{
+   font-family: "Arial";
+}
+
+.text {
+    margin-top: 1%;
+    font-size: large;
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 0.5%;
+    font-size: large;
+    text-align: center;
+}
+
+#text3 {
+    margin-top: 0.5%;
+    font-size: large;
+}
+
+#text4 {
+    margin-top: 0.5%;
+    font-size: large;
+}
+
+#table {
+    width: 50%;
+}
+
+#mainsitebutton {
+    margin-left: 46%;
+    margin-top: 1%;
+}
+
+#dropdown {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.wrapper {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+
+.startbutton {
+    text-align: center;
+    margin-top: 25px;
+    height: 100px;
+    width: 200px;
+    font-size: xx-large;
+}
+
+.button {
+    margin-top: 15px;
+    height: 50px;
+    width: 125px;
+}
+
+.textingame {
+    text-align: center;
+    font-size: xx-large;
+}
+
+#button {
+    text-align: center;
+    position: relative;
+    width: 400px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.norden {
+    position: absolute;
+    top: 0px;
+    right: 150px;
+    width: 100px;
+    height: 50px;
+}
+
+.osten {
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    width: 100px;
+    height: 50px;
+}
+
+.süden {
+    position: absolute;
+    bottom: 0px;
+    right: 150px;
+    width: 100px;
+    height: 50px;
+}
+
+.westen {
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    width: 100px;
+    height: 50px;
+}
+
+.tipp {
+    position: absolute;
+    top: 80px;
+    width: 100px;
+    height: 50px;
+    left: 150px;
+}
+
+.reset {
+    right: 0px;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+}
+
+#sackgasse {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+
+    left: 150px;
+}
+
+#getbackbutton {
+    width: 200px;
+    height: 50px;
+}
+
+.mainsitebutton {
+    margin-left: 420px;
+    margin-top: 40px;
+}
+
+.getback {
+    margin-left: 46%;
+    margin-top: 40px;
+}
+

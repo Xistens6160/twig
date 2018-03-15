@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Input Name</title>
+</head>
+<body>
+<div class="wrapper">
+    <h1>Gib dein Namen ein</h1>
+    <div class="text">
+        Bitte gib dein Namen ein, damit dein Score mit deinem Namen in die Highscoreliste eingetragen werden kann.
+    </div>
+    <div id="dropdown">
+        <form action="../php/inputName.php">
+            <div class="text"> Name : <input type="text" min="3" max="50" value="" name="name"></div>
+            <br>
+            <input  class="btn btn-primary button" type="submit" value="Bestätigen">
+            <br>
+            <br>
+        </form>
+        <button class="btn btn-secondary buttons"  onclick="location.href = 'start.html';">Zurück zur Startseite</button>
+    </div>
+    <br>
+</div>
+</body>
+</html>

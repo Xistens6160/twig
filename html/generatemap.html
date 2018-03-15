@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script
+            src="http://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>Schatzsuche</title>
+</head>
+<body>
+<div class="wrapper">
+    <h1>Neue Map erstellen</h1>
+    <div class="text">
+        Hier kannst du eine neue Map generieren lassen. Du kannst die Höhe und Breite der Map Selbst entscheiden.
+        <br>
+        Achtung: Wenn du eine neue Map erstellst löscht du damit die aktuelle Map!!!!!!!!!!!!
+    </div>
+    <div id="dropdown">
+        <form action="../php/generatemap.php">
+            <div class="dropdown"> Höhe : <input type="number" min="3" max="50" value="3" name="maxx"></div>
+            <br>
+            <div class="dropdown"> Breite : <input type="number" min="3" max="50" value="3" name="maxy"></div>
+            <br>
+            <input class="btn btn-danger button" type="submit" value="Bestätigen">
+            <br>
+            <br>
+        </form>
+        <button class="btn btn-secondary buttons" onclick="location.href = 'start.html';">Zurück zur Startseite</button>
+    </div>
+    <br>
+</div>
+</body>
+</html>

@@ -32,3 +32,6 @@ _ReSharper*/
 packages/
 /node_modules/
 /vendor/
+/.idea/deployment.xml
+/.idea/webServers.xml
+/.idea/workspace.xml
